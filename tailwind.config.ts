@@ -24,11 +24,8 @@ const config: Config = {
             colors: {
                 primary: '#222831',
                 secondary: '#31363F',
-                secondaryHover: '#282c34',
                 accent: {
-                    DEFAULT: '#76ABAE',
-                    hoverDark: '#608F91',
-                    hoverLight: '#8ABFC2',
+                    DEFAULT: '#00ff99',
                 },
             },
         },

@@ -2,17 +2,14 @@ import { FaLinkedinIn, FaGithub, FaXTwitter } from 'react-icons/fa6';
 
 const socials = [
     {
-        id: 1,
         icon: <FaLinkedinIn />,
         path: 'https://www.linkedin.com/in/adambarrettsmith',
     },
     {
-        id: 2,
         icon: <FaGithub />,
         path: 'https://github.com/adamsmithdev',
     },
     {
-        id: 3,
         icon: <FaXTwitter />,
         path: 'https://x.com/adamsmithdev',
     },
@@ -20,13 +17,18 @@ const socials = [
 
 export default function Socials({
     linkStyles,
-}: {
-    readonly linkStyles: string;
-}) {
+}: Readonly<{
+    linkStyles: string;
+}>) {
     return (
         <>
-            {socials.map(({ id, icon, path }) => (
-                <a key={id} href={path} target="_blank" className={linkStyles}>
+            {socials.map(({ icon, path }, index) => (
+                <a
+                    key={index}
+                    href={path}
+                    target="_blank"
+                    className={linkStyles}
+                >
                     {icon}
                 </a>
             ))}

@@ -14,4 +14,20 @@
     .h2 {
         @apply text-[20px] xl:text-[24px] leading-[1.1] font-semibold;
     }
+
+    .link {
+        @apply relative inline-block font-extrabold hover:text-accent transition-all duration-100;
+    }
+
+    .link .underline {
+        @apply absolute bottom-1 left-0 w-0 h-[1px] bg-current transition-all duration-300 ease-in-out;
+    }
+
+    .link:hover .underline {
+        @apply w-full;
+    }
+
+    .fixed-navigation {
+        @apply fixed top-0 left-0 w-full z-50;
+    }
 }
