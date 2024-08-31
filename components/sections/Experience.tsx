@@ -117,7 +117,7 @@ export default function Experience() {
                                     size={30}
                                     className="mt-2 transition-all duration-300 group-hover:-rotate-90"
                                 />
-                                <p className="text-white/40">
+                                <p className="text-white/50">
                                     {startDate} - {endDate}
                                 </p>
                                 <p className="text-white/80">{description}</p>

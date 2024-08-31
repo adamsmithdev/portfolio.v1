@@ -15,30 +15,30 @@ import { SiNextdotjs, SiTailwindcss } from 'react-icons/si';
 import Section from '@/components/Section';
 
 const skills = [
-    { id: 1, name: 'HTML5', icon: <FaHtml5 /> },
-    { id: 2, name: 'CSS3', icon: <FaCss3 /> },
-    { id: 3, name: 'JavaScript', icon: <FaJs /> },
-    { id: 4, name: 'Sass', icon: <FaSass /> },
-    { id: 5, name: 'React', icon: <FaReact /> },
-    { id: 6, name: 'Next.js', icon: <SiNextdotjs /> },
-    { id: 7, name: 'Tailwind CSS', icon: <SiTailwindcss /> },
-    { id: 8, name: 'Node.js', icon: <FaNodeJs /> },
+    { name: 'HTML5', icon: <FaHtml5 /> },
+    { name: 'CSS3', icon: <FaCss3 /> },
+    { name: 'JavaScript', icon: <FaJs /> },
+    { name: 'Sass', icon: <FaSass /> },
+    { name: 'React', icon: <FaReact /> },
+    { name: 'Next.js', icon: <SiNextdotjs /> },
+    { name: 'Tailwind CSS', icon: <SiTailwindcss /> },
+    { name: 'Node.js', icon: <FaNodeJs /> },
 ];
 
 export default function Skills() {
     return (
         <Section title="Skills" divider>
             <ul className="pb-6 grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4 xl:gap-[30px]">
-                {skills.map(({ id, icon, name }) => (
-                    <li key={id} className="flex flex-col items-center">
+                {skills.map(({ name, icon }, index) => (
+                    <li key={index} className="flex flex-col items-center">
                         <div
-                            data-tooltip-id={`skill-${id}`}
+                            data-tooltip-id={`skill-${index}`}
                             className="flex justify-center items-center text-6xl p-4 rounded-xl w-full h-[150px] lg:h-[100px]  bg-secondary hover:bg-secondary/60 hover:text-accent hover:transition-all duration-500"
                         >
                             {icon}
                         </div>
                         <Tooltip
-                            id={`skill-${id}`}
+                            id={`skill-${index}`}
                             place="top"
                             content={name}
                         />
