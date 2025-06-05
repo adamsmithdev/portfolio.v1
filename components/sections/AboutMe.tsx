@@ -19,14 +19,14 @@ export default function AboutMe() {
             <p className="text-white/80 pb-2">
                 Currently, I&rsquo;m working with{' '}
                 <a
-                    href="https://onsolve.com"
+                    href="https://www.crisis24.com"
                     target="_blank"
                     className="link text-accent relative inline-block"
                 >
-                    OnSolve<span className="underline"></span>
+                    Crisis24<span className="underline"></span>
                 </a>{' '}
                 to build beautiful and functional UIs for their mass
-                notification platform.
+                notification and Risk Intelligence platforms.
             </p>
             <p className="text-white/80 pb-6">
                 Although I&rsquo;m not looking for any new opportunities, my

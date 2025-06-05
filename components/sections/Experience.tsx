@@ -1,4 +1,3 @@
-import { TbSeparator } from 'react-icons/tb';
 import { BsArrowDownRight } from 'react-icons/bs';
 
 // components
@@ -6,13 +5,13 @@ import Section from '@/components/Section';
 
 const experience = [
     {
-        title: 'Senior Frontend Engineer',
-        company: 'OnSolve',
-        link: 'https://www.onsolve.com',
+        title: 'Frontend Engineer',
+        company: 'Crisis24',
+        link: 'https://www.crisis24.com',
         startDate: 'July 2022',
         endDate: 'Present',
         description:
-            "My current project. Here at Onsolve my team of 5 developers is responsible for developing the company's most high priority applications for both internal and customer facing use. Applications are built in ReactJS with custom Sass styling, while the backend is supported by .NET Core. I am involved in the entire software development lifecycle from gathering requirements and building technical design documents to developing and testing newly developed features in different micro-service based applications.",
+            "My current project. Here at Crisis24 my team of 5 developers is responsible for developing the company's most high priority applications for both internal and customer facing use. Applications are built in ReactJS with custom Sass styling, while the backend is supported by .NET Core. I am involved in the entire software development lifecycle from gathering requirements and building technical design documents to developing and testing newly developed features in different micro-service based applications.",
         technologies: [
             'JavaScript',
             'TypeScript',
