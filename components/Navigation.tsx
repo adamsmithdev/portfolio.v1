@@ -11,7 +11,7 @@ export default function Navigation() {
                 className="relative w-full h-0 pb"
             >
                 <Image
-                    src="/assets/profile.png"
+                    src="/assets/profile.jpeg"
                     alt="Profile Picture"
                     fill
                     sizes="100%"
