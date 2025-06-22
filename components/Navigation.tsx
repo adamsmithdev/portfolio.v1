@@ -34,14 +34,14 @@ export default function Navigation() {
             {/* Contact Buttons */}
             <div className="absolute bottom-0 flex w-full border-t border-white/20">
                 <a
-                    href="/assets/resume.pdf"
+                    href="/resume.pdf"
                     target="_blank"
                     className="py-1 w-full border-r border-white/20 bg-secondary text-accent hover:bg-secondary/60 hover:text-accent hover:transition-all duration-500"
                 >
                     Resume
                 </a>{' '}
                 <a
-                    href="mailto:adam@adamsmith.tech"
+                    href="mailto:me@adamsmith.tech"
                     target="_blank"
                     className="py-1 w-full bg-secondary text-accent hover:bg-secondary/60 hover:text-accent hover:transition-all duration-500"
                 >

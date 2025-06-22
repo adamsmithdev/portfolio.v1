@@ -1,6 +1,7 @@
 import Navigation from '@/components/Navigation';
 import AboutMe from '@/components/sections/AboutMe';
 import Skills from '@/components/sections/Skills';
+import Portfolio from '@/components/sections/Portfolio';
 import Experience from '@/components/sections/Experience';
 import Footer from '@/components/Footer';
 import ClientMessage from '@/components/ClientMessage';
@@ -18,6 +19,7 @@ export default function Home() {
                 <div className="px-8">
                     <AboutMe />
                     <Skills />
+                    <Portfolio />
                     <Experience />
 
                     <Footer />
