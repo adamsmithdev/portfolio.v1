@@ -1,140 +1,153 @@
-import { BsArrowDownRight } from 'react-icons/bs';
+import { BsArrowUpRight } from 'react-icons/bs';
 
 // components
 import Section from '@/components/Section';
 
 const experience = [
-    {
-        title: 'Frontend Engineer',
-        company: 'Crisis24',
-        link: 'https://www.crisis24.com',
-        startDate: 'July 2022',
-        endDate: 'Present',
-        description:
-            "My current project. Here at Crisis24 my team of 5 developers is responsible for developing the company's most high priority applications for both internal and customer facing use. Applications are built in ReactJS with custom Sass styling, while the backend is supported by .NET Core. I am involved in the entire software development lifecycle from gathering requirements and building technical design documents to developing and testing newly developed features in different micro-service based applications.",
-        technologies: [
-            'JavaScript',
-            'TypeScript',
-            'React',
-            'Node.js',
-            '.NET',
-            'PostgreSQL',
-        ],
-    },
-    {
-        title: 'Fullstack Engineer',
-        company: 'Lexis Nexis',
-        link: 'https://www.lexisnexis.com',
-        startDate: 'July 2021',
-        endDate: 'June 2022',
-        description:
-            'At Lexis Nexis I was responsible for building multiple internal application including a .NET Core API, as well as building unit tests, integration testing, and performance refactoring in both the API and front-end through ReactJS.',
-        technologies: [
-            'JavaScript',
-            'TypeScript',
-            'React',
-            'Node.js',
-            '.NET',
-            'PostgreSQL',
-        ],
-    },
-    {
-        title: 'Backend Engineer',
-        company: 'Southern Company',
-        link: 'https://www.southerncompany.com',
-        startDate: 'January 2021',
-        endDate: 'June 2021',
-        description:
-            'At Southern Company I was responsible for developing scalable, modern RESTful APIs through .NET Core 3.1 to allow multiple legacy applications being used by different parts of the company to pass and validate business data to a secure location for reporting use.',
-        technologies: ['.NET', 'SQL'],
-    },
-    {
-        title: 'Fullstack Engineer',
-        company: 'Intercontinental Exchange',
-        link: 'https://www.ice.com',
-        startDate: 'April 2019',
-        endDate: 'December 2020',
-        description:
-            'My transition into JS frameworks. I was responsible for maintaining and supporting existing SharePoint On-Premises applications, as well as building additional features on top of the platform through custom farm solutions via C#.NET Farm Solutions and JavaScript/jQuery. Adam was responsible for the design of custom deployments and pipeline tools, as well as playing a key role in implementing a company-wide tool for storing data via .NET Core 3.1 and ReactJS.',
-        technologies: [
-            'JavaScript',
-            'TypeScript',
-            'React',
-            'Node.js',
-            '.NET',
-            'SQL',
-        ],
-    },
-    {
-        title: 'Fullstack Engineer',
-        company: 'Teradata',
-        link: 'https://www.teradata.com',
-        startDate: 'May 2016',
-        endDate: 'March 2019',
-        description:
-            'The main purpose of this project was to re-build an existing internal Teradata tool called the Asset Repository (AR) in a SharePoint Hybrid environment in SharePoint On-Premises 2016 and SharePoint Online. The work here included gathering of requirements, design of a scalable solution interacting with both SQL and Teradata Databases, migration from both a SharePoint 2010 On-Premises environment and the existing custom application. Also included future development of needed business processes and continuous functional improvement after completion.',
-        technologies: ['JavaScript', '.NET', 'SQL'],
-    },
-    {
-        title: 'Fullstack Engineer',
-        company: 'ETV Software',
-        link: 'https://etvsoftware.com',
-        startDate: 'June 2015',
-        endDate: 'April 2016',
-        description:
-            'My first project. I was brought me on to assist in their growing workload of building full-stack .NET business facing web applications. I worked on various apps including billing systems, healthcare, portals, dashboards, customizable widgets, and report generation outputting both Excel and PDF reports. I met with clients face-to-face, gathered requirements and provided solutions for complicated business processes and solutions. 4-5 months of my time here was spent re-building an older PHP application in using the Microsoft stack, and then enhancing this application after iterative requirement gathering sessions and analysis of the desired functionality.',
-        technologies: ['JavaScript', 'jQuery', '.NET', 'SQL'],
-    },
+  {
+    title: 'Frontend Engineer',
+    company: 'Crisis24',
+    link: 'https://www.crisis24.com',
+    startDate: 'July 2022',
+    endDate: 'Present',
+    description:
+      'Core contributor for high-impact features across Crisis24’s Mass Notification and Risk Intelligence platforms. Architected scalable, testable React + TypeScript solutions in close collaboration with UX, Product, and backend teams. Championed SCSS Modules, modern state management, and frontend testing practices. Spearheaded integrations with .NET APIs and played a key role in replatforming legacy OnSolve systems into the Crisis24 ecosystem.',
+    technologies: [
+      'JavaScript',
+      'TypeScript',
+      'React',
+      'SCSS Modules',
+      '.NET',
+      'Kubernetes',
+      'Postman',
+    ],
+  },
+  {
+    title: 'Fullstack Engineer',
+    company: 'Lexis Nexis',
+    link: 'https://www.lexisnexis.com',
+    startDate: 'July 2021',
+    endDate: 'June 2022',
+    description:
+      'Built Microsoft Teams apps and internal dashboards using React and Redux. Developed reusable components, supported full-stack feature development, and improved application performance and reliability through testing and refactoring. Worked cross-functionally to deliver .NET Core APIs for legacy system integrations.',
+    technologies: [
+      'JavaScript',
+      'TypeScript',
+      'React',
+      'Redux',
+      '.NET',
+      'PostgreSQL',
+    ],
+  },
+  {
+    title: 'Backend Engineer',
+    company: 'Southern Company',
+    link: 'https://www.southerncompany.com',
+    startDate: 'January 2021',
+    endDate: 'June 2021',
+    description:
+      'Engineered RESTful APIs with .NET Core to modernize internal business workflows. Built data ingestion pipelines, enhanced SQL database interactions, and collaborated across teams to translate stakeholder needs into reliable backend services.',
+    technologies: ['.NET', 'C#', 'SQL'],
+  },
+  {
+    title: 'Fullstack Engineer',
+    company: 'Intercontinental Exchange',
+    link: 'https://www.ice.com',
+    startDate: 'April 2019',
+    endDate: 'December 2020',
+    description:
+      'Contributed to internal tools and document management workflows using React and .NET Core. Led automation efforts with PowerShell and C# for SharePoint deployments. Delivered dynamic UIs and custom permissions interfaces with React and Kendo UI.',
+    technologies: [
+      'JavaScript',
+      'TypeScript',
+      'React',
+      '.NET Core',
+      'Kendo UI',
+      'SQL',
+      'SharePoint',
+    ],
+  },
+  {
+    title: 'Fullstack Engineer',
+    company: 'Teradata',
+    link: 'https://www.teradata.com',
+    startDate: 'May 2016',
+    endDate: 'March 2019',
+    description:
+      'Built scalable SharePoint solutions and internal tooling using JavaScript, jQuery, and .NET. Developed approval workflows with Nintex and InfoPath, modernized site templates, and led internal training initiatives to increase team adoption of frontend tools.',
+    technologies: [
+      'JavaScript',
+      'jQuery',
+      '.NET',
+      'C#',
+      'SQL',
+      'SharePoint',
+      'InfoPath',
+      'Nintex',
+    ],
+  },
+  {
+    title: 'Fullstack Engineer',
+    company: 'ETV Software',
+    link: 'https://etvsoftware.com',
+    startDate: 'June 2015',
+    endDate: 'April 2016',
+    description:
+      'Delivered full-stack business applications for clients in healthcare, finance, and logistics. Migrated legacy apps to modern .NET-based systems and enhanced them through client-driven iterations. Built custom dashboards, reporting tools, and SQL-driven data solutions.',
+    technologies: ['JavaScript', 'jQuery', '.NET', 'SQL', 'VB.NET', 'C#'],
+  },
 ];
 
 export default function Experience() {
-    return (
-        <Section title="Experience">
-            <ul className="max-w-2xl">
-                {experience.map(
-                    (
-                        {
-                            title,
-                            company,
-                            link,
-                            startDate,
-                            endDate,
-                            description,
-                            technologies,
-                        },
-                        index
-                    ) => (
-                        <li
-                            key={index}
-                            className="group flex flex-col justify-center mb-8 p-4 transition-transform duration-300 transform rounded-lg hover:rounded-2xl hover:bg-secondary/50 border-t border-t-white/0 hover:border-t hover:border-t-white/10 hover:transition-colors ease-in-out"
-                        >
-                            <a href={link} target="_blank">
-                                <h2 className="h2 text-white/80 transition-colors duration-300 ease-in-out group-hover:text-accent">
-                                    {title} &bull; {company}
-                                </h2>
-                                <BsArrowDownRight
-                                    size={30}
-                                    className="mt-2 transition-all duration-300 group-hover:-rotate-90"
-                                />
-                                <p className="text-white/50">
-                                    {startDate} - {endDate}
-                                </p>
-                                <p className="text-white/80">{description}</p>
-                                <ul className="flex flex-wrap gap-4 mt-4">
-                                    {technologies.map((tech, index) => (
-                                        <li
-                                            key={index}
-                                            className="px-2 py-1 text-sm bg-accent/80 text-black/90 rounded-xl"
-                                        >
-                                            {tech}
-                                        </li>
-                                    ))}
-                                </ul>
-                            </a>
-                        </li>
-                    )
-                )}
-            </ul>
-        </Section>
-    );
+  return (
+    <Section title="Experience">
+      <ul className="space-y-8 max-w-4xl mx-auto">
+        {experience.map((job, index) => (
+          <li
+            key={index}
+            className="group border border-white/10 rounded-2xl p-6 hover:border-accent/50 transition-colors bg-background/60 hover:bg-background/80 shadow-md hover:shadow-lg"
+          >
+            <a
+              href={job.link}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex flex-col gap-2"
+            >
+              <div className="flex items-center justify-between">
+                <h2 className="text-lg font-semibold text-white group-hover:text-accent transition-colors">
+                  {job.title} @{' '}
+                  <span className="underline underline-offset-4">
+                    {job.company}
+                  </span>
+                </h2>
+                <BsArrowUpRight
+                  size={20}
+                  className="text-accent opacity-70 group-hover:rotate-45 transition-transform duration-300"
+                />
+              </div>
+
+              <p className="text-sm text-white/50">
+                {job.startDate} &mdash; {job.endDate}
+              </p>
+
+              <p className="text-white leading-relaxed text-sm">
+                {job.description}
+              </p>
+
+              <ul className="flex flex-wrap gap-2 mt-4">
+                {job.technologies.map((tech, techIndex) => (
+                  <li
+                    key={techIndex}
+                    className="text-xs font-medium bg-accent/80 text-black px-2 py-1 rounded-full"
+                  >
+                    {tech}
+                  </li>
+                ))}
+              </ul>
+            </a>
+          </li>
+        ))}
+      </ul>
+    </Section>
+  );
 }
