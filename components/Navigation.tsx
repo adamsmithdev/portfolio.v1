@@ -34,7 +34,7 @@ export default function Navigation() {
             {/* Contact Buttons */}
             <div className="absolute bottom-0 flex w-full border-t border-white/20">
                 <a
-                    href="/resume.pdf"
+                    href="/Adam_Smith_Senior_Frontend_Engineer.pdf"
                     target="_blank"
                     className="py-1 w-full border-r border-white/20 bg-secondary text-accent hover:bg-secondary/60 hover:text-accent hover:transition-all duration-500"
                 >
