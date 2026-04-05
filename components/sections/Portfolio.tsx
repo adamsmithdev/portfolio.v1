@@ -50,6 +50,7 @@ export default function Portfolio() {
                             src={screenshot}
                             alt={title}
                             fill
+                            sizes="(max-width: 640px) 100vw, 50vw"
                             className="object-cover object-top transition-transform duration-300 group-hover:scale-105"
                         />
 
